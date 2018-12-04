@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /dev
+  port: 9999
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=zptc_teacher_management
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: yu3621039
+#  jpa:
+#    database: mysql
+#    properties:
+#      hibernate:
+#        show-sql: true
+#        format-sql: true
+#  jpa:
+#    database: mysql
+#    show-sql: true
+
