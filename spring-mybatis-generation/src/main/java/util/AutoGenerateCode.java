@@ -20,13 +20,13 @@ public class AutoGenerateCode {
         // 全局配置定义
         GlobalConfig gc = new GlobalConfig();
 
-        gc.setOutputDir("F:\\javaProgramming\\springBoot\\testDemo\\mybatis_demo\\src\\main\\java\\cn\\test\\demo\\mybatis_demo\\util"); // 设置存储路径
+        gc.setOutputDir("D:\\springBoot\\util"); // 设置存储路径
         gc.setFileOverride(true);
         gc.setActiveRecord(true);
 //        gc.setEnableCache(true);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(true);// XML columList
-        gc.setAuthor("王杨帅"); // 作者信息
+        gc.setAuthor("yuliangbing"); // 作者信息
 
         // 自定义文件命名，注意 %s 会自动填充表实体属性！
         gc.setMapperName("%sDao");
